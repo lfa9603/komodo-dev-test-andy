@@ -1,0 +1,54 @@
+{
+    "metrics": {
+        "m1": {"id": "m1", "name": "Sleep Quality"},
+        "m2": {"id": "m2", "name": "School-Life Balance"}
+    },
+    "users": {
+        "u1": {
+            "id": "u1", 
+            "metrics": {
+                "m1": {
+                    "responses": {
+                        "r1": {"date": "01/01/2020", "value": 3},
+                        "r2": {"date": "30/01/2020", "value": 4},
+                        "r3": {"date": "02/02/2020", "value": 3},
+                        "r4": {"date": "20/02/2020", "value": 3},
+                        "r5": {"date": "16/03/2020", "value": 3}
+                    }
+                },
+                "m2": {
+                    "responses": {
+                        "r1": {"date": "01/01/2020", "value": 2},
+                        "r2": {"date": "30/01/2020", "value": 2},
+                        "r3": {"date": "02/02/2020", "value": 3},
+                        "r4": {"date": "20/02/2020", "value": 1},
+                        "r5": {"date": "16/03/2020", "value": 3}
+                    }
+                }
+            }
+        },
+        "u2": {
+            "id": "u2", 
+            "metrics": {
+                "m1": {
+                    "responses": {
+                        "r1": {"date": "03/04/2020", "value": 4},
+                        "r2": {"date": "27/04/2020", "value": 3},
+                        "r3": {"date": "02/05/2020", "value": 6},
+                        "r4": {"date": "12/05/2020", "value": 7},
+                        "r5": {"date": "17/10/2020", "value": 9}
+                    }
+                },
+                "m2": {
+                    "responses": {
+                        "r1": {"date": "03/04/2020", "value": 10},
+                        "r2": {"date": "27/04/2020", "value": 1},
+                        "r3": {"date": "02/05/2020", "value": 8},
+                        "r4": {"date": "12/05/2020", "value": 2},
+                        "r5": {"date": "17/10/2020", "value": 9}
+                    }
+                }
+            }
+        }
+    }
+}
