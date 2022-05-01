@@ -5,7 +5,7 @@
     },
     "users": {
         "u1": {
-            "id": "u1", 
+            "id": "u1",
             "metrics": {
                 "m1": {
                     "responses": {
@@ -28,7 +28,7 @@
             }
         },
         "u2": {
-            "id": "u2", 
+            "id": "u2",
             "metrics": {
                 "m1": {
                     "responses": {
